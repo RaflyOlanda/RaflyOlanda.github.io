@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bukti Pemesanan - Restoran</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#"> Home</a> </li>
+            <li><a href="#"> Menu</a> </li>
+            <li><a href="#"> Contact Us</a> </li>
+        </ul>
+    </nav>
+    <div class="container">
+    
+      <div class="header">
+        <img src="restaurantnew.jpg" class="logo" />
+        <h1>Your Order Has Been Confirmed</h1>
+        <p class="tagline">Thank you for your order !!</p>
+      </div>
+
+      <div class="info-pelayanan">
+        <div class="info">
+          <p><strong>Order Date:</strong> <span><input type="date"></span></p>
+          <p><strong>Nama Pelayan:</strong> Ahmad Nur Fauzan</p>
+        </div>
+        <div class="info">
+          <p><strong>Customer:</strong> M. Rafly Pratama Olanda</p>
+          <p><strong>Delivery Address:</strong> Jl. Merdeka No.15, Kota Balikpapan</p>
+        </div>
+      </div>
+
+      <div class="order-summary">
+        <h2>Order Summary</h2>
+        <table class="order-table">
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Quantity</th>
+              <th>Price</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <img src="nasgor.jpg" alt="Nasi Goreng" class="menu-img" />
+                <strong>Fried Rice</strong>
+              </td>
+              <td><input type="number" value="2" /> Porsi</td>
+              <td>Rp 25.000</td>
+              <td>Rp 50.000</td>
+            </tr>
+            <tr>
+              <td>
+                <img src="icetea.jpg" alt="Es Teh" class="menu-img" />
+                <strong>Ice Tea</strong>
+              </td>
+              <td><input type="number" value="1" /> Gelas</td>
+              <td>Rp 5.000</td>
+              <td>Rp 5.000</td>
+            </tr>
+            <tr>
+                <td>
+                  <img src="tenderloin.jpg" alt="Tenderloin" class="menu-img" />
+                  <strong>Steak</strong>
+                </td>
+                <td><input type="number" value="3" /> Porsi</td>
+                <td>Rp 125.000</td>
+                <td>Rp 375.000.</td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="burger.jpg" alt="BUrger" class="menu-img" />
+                  <strong>Burger</strong>
+                </td>
+                <td><input type="number" value="2" /> Porsi</td>
+                <td>Rp 50.000</td>
+                <td>Rp 100.000</td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="totals">
+        <div class="total-line">
+          <p>Total Pesanan</p>
+          <p>Rp 530.000</p>
+        </div>
+        <div class="total-line">
+          <p>Pajak (10%)</p>
+          <p>Rp 53.000</p>
+        </div>
+        <div class="total-line total">
+          <p><strong>Total Tagihan</strong></p>
+          <p><strong>Rp 583.000</strong></p>
+        </div>
+      </div>
+      
+      <div class="payment-method">
+        <h2><strong>Payment Method</strong></h2>
+        <label><input type="radio" name="payment" /> BCA</label>
+        <label><input type="radio" name="payment" /> BRI</label>
+        <label><input type="radio" name="payment" /> OVO</label>
+        <label><input type="radio" name="payment" /> GoPay</label>
+      </div>
+
+      <div class="data">
+        <ul>
+          <li><strong>Nama:</strong> Muhammad Rafly Pratama Olanda</li>
+          <li><strong>NIM:</strong> 2309106043</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
