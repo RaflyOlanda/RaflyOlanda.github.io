@@ -12,3 +12,6 @@ icon.onclick = function()
 {
     document.body.classList.toggle("dark-theme");    
 }
+
+//pop up box tampilan awal
+alert('Welcome to our website');
